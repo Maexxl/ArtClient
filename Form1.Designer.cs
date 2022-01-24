@@ -32,8 +32,6 @@
             this.browse_one = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button_action = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button_save = new System.Windows.Forms.Button();
             this.button_style = new System.Windows.Forms.Button();
             this.textBox_style = new System.Windows.Forms.TextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
@@ -56,7 +54,7 @@
             // 
             this.browse_one.Location = new System.Drawing.Point(492, 82);
             this.browse_one.Name = "browse_one";
-            this.browse_one.Size = new System.Drawing.Size(165, 27);
+            this.browse_one.Size = new System.Drawing.Size(150, 27);
             this.browse_one.TabIndex = 1;
             this.browse_one.Text = "Bild auswählen";
             this.browse_one.UseVisualStyleBackColor = true;
@@ -71,36 +69,19 @@
             // 
             // button_action
             // 
-            this.button_action.Location = new System.Drawing.Point(41, 266);
+            this.button_action.Location = new System.Drawing.Point(41, 204);
             this.button_action.Name = "button_action";
-            this.button_action.Size = new System.Drawing.Size(151, 29);
+            this.button_action.Size = new System.Drawing.Size(150, 30);
             this.button_action.TabIndex = 3;
             this.button_action.Text = "Verarbeiten";
             this.button_action.UseVisualStyleBackColor = true;
             this.button_action.Click += new System.EventHandler(this.button_action_Click);
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(41, 204);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(415, 27);
-            this.textBox2.TabIndex = 4;
-            // 
-            // button_save
-            // 
-            this.button_save.Location = new System.Drawing.Point(492, 204);
-            this.button_save.Name = "button_save";
-            this.button_save.Size = new System.Drawing.Size(165, 27);
-            this.button_save.TabIndex = 5;
-            this.button_save.Text = "Speicherort wählen";
-            this.button_save.UseVisualStyleBackColor = true;
-            this.button_save.Click += new System.EventHandler(this.button_save_Click);
-            // 
             // button_style
             // 
             this.button_style.Location = new System.Drawing.Point(492, 141);
             this.button_style.Name = "button_style";
-            this.button_style.Size = new System.Drawing.Size(165, 27);
+            this.button_style.Size = new System.Drawing.Size(150, 27);
             this.button_style.TabIndex = 6;
             this.button_style.Text = "Style auswählen";
             this.button_style.UseVisualStyleBackColor = true;
@@ -117,7 +98,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(41, 322);
+            this.progressBar1.Location = new System.Drawing.Point(41, 254);
             this.progressBar1.MarqueeAnimationSpeed = 0;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(415, 29);
@@ -129,12 +110,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 373);
+            this.ClientSize = new System.Drawing.Size(800, 313);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.textBox_style);
             this.Controls.Add(this.button_style);
-            this.Controls.Add(this.button_save);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button_action);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.browse_one);
@@ -152,8 +131,6 @@
         private Button browse_one;
         private TextBox textBox1;
         private Button button_action;
-        private TextBox textBox2;
-        private Button button_save;
         private Button button_style;
         private TextBox textBox_style;
         private ProgressBar progressBar1;
